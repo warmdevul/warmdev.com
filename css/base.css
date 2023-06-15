@@ -1,0 +1,39 @@
+:root {
+    --select-color: #4f6dee;
+    --main-color: #1A35AE;
+    --white-color: #fff;
+    --black-color: #0F0F0F;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    /* hack */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
+
+.grid {
+    width: 1430px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
